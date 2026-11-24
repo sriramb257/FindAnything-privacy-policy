@@ -15,10 +15,11 @@
 </head>
 <body>
 <h1>Privacy Policy</h1>
-<p class="muted">Find Anything (package com.ram.findanything) · Last updated: 7 October 2026</p>
+<p class="muted">Find Anything (package com.ram.findanything) · Last updated: 24 November 2026</p>
 
 <p><strong>Short version: Find Anything does not collect, upload or share any of your data.</strong>
-The app has no internet permission, so it cannot send anything from your phone.</p>
+Nothing is ever sent to us or to any server. The only time files leave your phone is when you use
+Wi-Fi transfer to send them to your own computer or phone on your own Wi-Fi.</p>
 
 <h2>What the app does with your files</h2>
 <ul>
@@ -29,28 +30,56 @@ The app has no internet permission, so it cannot send anything from your phone.<
   <li>Files you move to the Private locker are stored in the app's private storage. Your locker PIN is
       never stored; only a protected (salted, hashed) form of it is kept on the phone.</li>
   <li>Edited PDFs, documents and converted images are saved as new files in your storage.</li>
+  <li><strong>Dates &amp; reminders:</strong> while reading your files, the app notes expiry, due and travel
+      dates (for example on an ID, a bill or a ticket) and keeps them with the search index, so it can
+      remind you before they come up. You can also add a reminder to any file yourself. These dates stay
+      on your phone.</li>
+  <li><strong>Photo labels and similar photos:</strong> to let you search photos by what's in them and find
+      near-copies, the app labels your photos (for example "sky" or "receipt") and keeps a small
+      fingerprint of each one, on your phone, in the search index.</li>
+  <li><strong>Trash:</strong> files you delete go to a hidden Trash folder on the same storage first, and are
+      removed for good after 30 days, or sooner if you empty the Trash.</li>
+  <li><strong>Installed apps (only when you open that screen):</strong> the app reads the list of apps on
+      your phone that have a home-screen icon, with their names, versions, sizes and dates, so you can see
+      what takes space, back an app up as an APK file, share it, or uninstall it. This list is shown only
+      to you and is not stored or sent anywhere.</li>
+  <li><strong>Wi-Fi transfer (only when you turn it on):</strong> the app shows a link and QR code that a
+      browser on the same Wi-Fi (or on your phone's hotspot) can open to download files from your phone or
+      send files to it. The link contains a one-time secret key, works only while sharing is on, and stops
+      after 10 minutes without use. Files go directly between your devices over your local network; they
+      do not pass through the internet or any server, and we never receive them.</li>
 </ul>
 
 <h2>Permissions</h2>
 <ul>
   <li><strong>All files access / storage:</strong> to browse and manage all your files as a file manager.</li>
   <li><strong>Photos, videos and audio:</strong> to show, organise and search your media.</li>
-  <li><strong>Notifications (optional):</strong> to show progress while files are being made searchable.</li>
+  <li><strong>Notifications (optional):</strong> to remind you before an ID, licence or policy expires, a bill
+      is due or a trip is coming up, and to show progress while files are made searchable or shared over
+      Wi-Fi. You can turn reminders off in Settings.</li>
   <li><strong>Foreground service:</strong> lets the app finish making your files searchable after you switch
-      to another app, with a progress notification and a "Stop for now" button. The reading happens on
-      your phone; nothing is uploaded.</li>
+      to another app, and keeps Wi-Fi transfer running while you share, each with a notification and a
+      button to stop. The reading happens on your phone; nothing is uploaded.</li>
+  <li><strong>Internet / network:</strong> used only by Wi-Fi transfer, to let your own devices on the same
+      Wi-Fi connect to your phone while you have it turned on. The app does not connect to any server.</li>
+  <li><strong>See installed apps:</strong> the list of apps with a home-screen icon, for the Installed apps
+      screen described above. The app does not ask for the list of every app on the phone.</li>
+  <li><strong>Request to uninstall apps:</strong> lets the Installed apps screen open Android's own
+      "Uninstall?" screen. Nothing is removed unless you confirm it there.</li>
   <li><strong>Biometrics (optional):</strong> to open the Private locker with your fingerprint. Your fingerprint is
       checked by Android; the app never sees it.</li>
 </ul>
 
 <h2>Data collection and sharing</h2>
 <p>We collect no personal data, no usage analytics and no crash reports, and share nothing with third
-parties. There are no ads and no accounts. Text recognition uses Google's ML Kit, which runs entirely on
-your phone; because the app has no internet access, nothing is sent to Google either.</p>
+parties. There are no ads and no accounts. Text recognition and photo labels use Google's ML Kit, which runs entirely on
+your phone. ML Kit's usage reporting is switched off in the app, so nothing is sent to Google either.</p>
 
 <h2>Data retention and deletion</h2>
-<p>Everything the app stores (search index, settings, Private locker files) stays on your phone. Clear the
-app's storage in Android settings, or uninstall the app, to delete it. Before uninstalling, move files out
+<p>Everything the app stores (search index, found dates and reminders, photo labels, settings, Private locker
+files) stays on your phone. Clear the app's storage in Android settings, or uninstall the app, to delete it.
+Files in the Trash are deleted automatically after 30 days; because the Trash folder is on your storage
+rather than inside the app, empty the Trash before uninstalling if you want them gone at once. Before uninstalling, move files out
 of the Private locker if you want to keep them; Android may offer to keep the app's data when you uninstall.</p>
 
 <h2>Children</h2>
